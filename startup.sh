@@ -1,3 +1,5 @@
+wget -O ./ https://raw.githubusercontent.com/etaylor23/flight/master/startup.sh
+
 sudo su
 amazon-linux-extras install nginx1.12 -y
 wget -O /etc/nginx/conf.d/default.conf https://raw.githubusercontent.com/etaylor23/flight/master/default.conf
